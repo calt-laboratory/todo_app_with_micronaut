@@ -17,10 +17,9 @@ repositories {
 }
 
 dependencies {
-    ksp("io.micronaut.data:micronaut-data-document-processor:4.7.1")
+    ksp("io.micronaut.data:micronaut-data-document-processor")
     ksp("io.micronaut:micronaut-http-validation")
     ksp("io.micronaut.serde:micronaut-serde-processor")
-    implementation("io.micronaut.data:micronaut-data-document-processor:4.7.1")
     implementation("io.micronaut.data:micronaut-data-mongodb")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
     implementation("io.micronaut.mongodb:micronaut-mongo-sync")
