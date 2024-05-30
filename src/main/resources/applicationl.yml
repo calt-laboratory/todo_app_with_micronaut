@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: todo_app_with_micronaut
+netty:
+  default:
+    allocator:
+      max-order: 3
+mongo.uri: mongodb://localhost:27017/todo
